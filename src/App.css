@@ -1,0 +1,107 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1,h2,h3{
+  margin: 0.5rem 0;
+}
+a{
+  text-decoration: none;
+
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.col-1{
+  flex: 1;
+}
+.col-2{
+  flex: 2;
+}
+.block{
+  background-color: aqua;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.row.center{
+  align-items: center;
+}
+ .items{
+  
+  display: inline-block;
+
+}
+
+
+.btn{
+  border: 2px solid black;
+  background-color: rgb(116, 179, 238);
+  float: right;
+ 
+}
+.text{
+  float:right;
+}
+
+.add{
+  border: 2px solid black;
+  background-color: rgb(116, 179, 238);
+ 
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 250px;
+}
+.remove{
+  border: 2px solid black;
+  background-color: rgb(116, 179, 238);
+ 
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin-left: 10px;
+ 
+}
+.content{
+  column-gap:2rem ;
+}
+.price{
+  display: inline-block;
+}
